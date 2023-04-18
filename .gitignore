@@ -1,8 +1,8 @@
 node_modules/
 
 # production
-/build
-/client/build
+# /build
+# /client/build
 production.json
 
 # misc
