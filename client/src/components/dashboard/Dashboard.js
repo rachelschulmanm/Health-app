@@ -29,7 +29,7 @@ const Dashboard = ({
         <Alert />
        
           <>
-            <h1 className="large text-primary">Main Text</h1>
+            <h1 className="large text-primary"></h1>
             <div style={{ width: '15%' }}>
               {user !== null && (
                 <img className="round-img" src={user.avatar} alt={user.name} />
@@ -45,7 +45,7 @@ const Dashboard = ({
             </p>
 
             <div>
-              Add your text here blablbalbalbala  sjzdfkjshd hskdfjhskdjdx
+              Add your text here
             </div>
       
           

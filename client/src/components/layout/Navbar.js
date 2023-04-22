@@ -11,17 +11,12 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/posts">Posts</Link>
+        <Link to="/posts">medical questions</Link>
       </li>
-      {/* <li>
-        <Link to="/dashboard">
-          <span className="hide-sm">לוח בקרה</span>{' '}
-          <i className="fas fa-user"></i>
-        </Link>
-      </li> */}
+  
       <li>
         <Link onClick={logout} to="/">
-          <span className="hide-sm">Logout</span>{' '}
+          <span className="hide-sm">Log out</span>{' '}
           <i className="fas fa-sign-out-alt"></i>
         </Link>
       </li>
@@ -30,20 +25,19 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
 
   const guestLinks = (
     <ul>
-      {/* <li>
-        <Link to="/profiles">מפתחים</Link>
-      </li> */}
+    
        <li>
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/posts">Posts</Link>
+        <Link to="/posts">medical questions
+</Link>
       </li>
       <li>
-        <Link to="/login">Signin</Link>
+        <Link to="/login">Sign in</Link>
       </li>
       <li>
-        <Link to="/register">Signup</Link>
+        <Link to="/register">Sign up</Link>
       </li>
     </ul>
   );

@@ -1,10 +1,11 @@
 {
-  "name": "dev-home",
+  "name": "Health Community",
   "version": "1.0.0",
-  "description": "Social network for developers",
+  "description": "Help people to share theur health experience with others",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
@@ -12,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/obrm/dev-home.git"
+    "url": "git+https://github.com/rachelschulmanm/Health-app"
   },
-  "author": "Ori Baram",
+  "author": "Rachel Ozer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/obrm/dev-home/issues"
+    "url": "https://github.com/rachelschulmanm"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

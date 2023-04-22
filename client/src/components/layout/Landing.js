@@ -12,14 +12,14 @@ const Landing = ({ isAuthenticated }) => {
         <div className="landing-inner">
           <h1 className="x-large">Health Community</h1>
           <p className="lead">
-            Text for example - share your experience with other
+         share your experience with others
           </p>
           <div className="buttons">
           <Link to="/login" className="btn btn-light mr">
-              Signin
+              Sign in
             </Link>
             <Link to="/register" className="btn btn-primary">
-              Signup
+              Sign up
             </Link>
           </div>
         </div>
